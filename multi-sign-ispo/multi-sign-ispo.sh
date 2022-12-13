@@ -6,7 +6,7 @@
 CARDANO_NET_PREFIX="--testnet-magic 1"
 
 #=== Ký(sign) giao dịch============
-cardano-cli transaction sign --tx-body-file $2 --signing-key-file $1 --out-file payment-0.witness ${CARDANO_NET_PREFIX}
+./cardano-cli transaction sign --tx-body-file $2 --signing-key-file $1 --out-file payment-0.witness ${CARDANO_NET_PREFIX}
 
 
 
